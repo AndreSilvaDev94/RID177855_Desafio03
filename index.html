@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <div id="mainContainer">
+      <header class="sectionTitle">
+        <h1>Board de tarefas</h1>
+      </header>
+      <main>
+        <section class="sectionForm">
+          <form id="formTodo" submit="addTask">
+            <input
+              class="inputTask"
+              id="inputDescription"
+              type="text"
+              placeholder="Nome da tarefa"
+            />
+            <input
+              class="inputLabel"
+              id="inputLabel"
+              type="text"
+              placeholder="Etiqueta"
+            />
+            <button class="buttonForm" type="submit">+</button>
+          </form>
+          <div id="sectionError"></section>
+        </section>
+        <section id="sectionList"></section>
+        <div class="separator"></div>
+      </main>
+      <footer id="sectionFooter">
+        <button id="clearCompleted" class="btnClear">
+          Apagar Tarefas Concluídas
+        </button>
+        <p id="taskCount"></p>
+      </footer>
+    </div>
+  </body>
+</html>
