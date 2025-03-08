@@ -2,7 +2,7 @@
 
 # Escola DNC - Desafio 3 Construa um Gerenciador de Tarefas
 
-🌐 Link para o site Acesse o projeto: 
+🌐 Link para o site Acesse o projeto: https://gerenciadortarefas01.netlify.app/ 
 
 🛠️ Tecnologias Utilizadas
 
